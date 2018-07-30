@@ -1,0 +1,267 @@
+* {box-sizing: border-box;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+body{  
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../images/texture.jpg');
+    color: rgb(46, 46, 46);
+    overflow: scroll;
+    min-width: 820px;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px gray solid;
+    background-color: #00352D;
+    text-align: center;
+    overflow: auto;  
+    padding: 10px 10px;
+    z-index: 1;}
+
+
+
+.namebox{
+    float: left;
+    margin: 0px 0px 0px 90px;
+    font-weight: bold;
+    font-size: 36px;
+   }
+
+.header-right{
+    float: right;
+    margin: 15px 90px 0px 0px;
+    font-size: 24px;
+}
+
+header a{
+    float: left;
+    padding: 10px;
+    color: #AD9C70;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white}
+
+#main{padding:0px 40px 20px 40px;
+    width: 920px;
+    margin: 109px 100px 10px 100px;
+    background-color:white;
+    border: gray solid 1px;}
+
+
+
+footer{font-size: 14px;
+    width: 920px;
+    margin: 0px 100px 30px 100px;}
+
+#title{border-bottom: darkgray solid 2px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    height: 50px;}
+
+
+#PortContainer{position: relative;
+    /* background-color: purple; */
+    height: 760px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    left:0px}
+
+
+
+.box{
+    position: absolute;
+}
+#box1{
+    left: 0px;
+    top: 0px;
+}
+
+#box2{
+    left: 300px;
+    top: 0px;
+}
+
+#box3{
+    left: 600px;
+    top: 0px;
+}
+
+#box4{
+    left: 0px;
+    top: 300px;
+}
+
+#box5{
+    left: 300px;
+    top: 300px;
+}
+
+#box6{
+    left: 600px;
+    top: 300px;
+}
+
+#box7{
+    left: 0px;
+    top: 600px;
+}
+
+#box8{
+    left: 300px;
+    top: 600px;
+}
+
+.label{position: absolute;
+    width: 240px;
+    left: 0px;
+    bottom: 16px;
+    text-align: center;
+    padding: 2px 0px;
+    margin: 0px;
+    background-color: #00352D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #AD9C70;
+    font-size: 20px;
+    font-weight: bold;}
+
+
+#footer{background-color: #00352D;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    bottom: 0px}
+
+
+@media only screen and (max-width: 700px) 
+{
+    img{ display: block; float: none}
+    .namebox{display:block;float:none; padding: 0px; margin: auto}
+    .header-right{display: block; float:none; padding: 0px; margin: auto}
+    header a{float:none; padding: 0px; margin: 10px}
+}
+
+@media only screen and (max-width: 768px) 
+{
+    /* doesn't look like anything needs to be changed */
+    
+
+}
+
+@media only screen and (max-width: 968px) 
+
+{
+    .namebox{margin: 0}
+    .header-right{margin: 15px 0px 0px 0px}
+}
+
+@media only screen and (max-width: 1050px)
+{
+
+    #main{
+        width: 620px;
+    }
+    #PortContainer{position: relative;
+        height: 1040px;}
+
+    #box1{
+        left: 0px;
+        top: 0px;
+    }
+
+    #box2{
+        left: 300px;
+        top: 0px;
+    }
+
+    #box3{
+        left: 0px;
+        top: 300px;
+    }
+
+    #box4{
+        left: 300px;
+        top: 300px;
+    }
+
+    #box5{
+        left: 0px;
+        top: 600px;
+    }
+
+    #box6{
+        left: 300px;
+        top: 600px;
+    }
+
+    #box7{
+        left: 0px;
+        top: 900px;
+    }
+
+    #box8{
+        left: 300px;
+        top: 900px;
+
+
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+
+    #main{
+        width: 320px;
+        margin-left: 10%;
+        margin-top: 139px;
+    }
+    #PortContainer{position: relative;
+        height: 2250px;}
+
+    #box1{
+        left: 0px;
+        top: 0px;
+    }
+
+    #box2{
+        left: 0px;
+        top: 300px;
+    }
+
+    #box3{
+        left: 0px;
+        top: 600px;
+    }
+
+    #box4{
+        left: 0px;
+        top: 900px;
+    }
+
+    #box5{
+        left: 0px;
+        top: 1200px;
+    }
+
+    #box6{
+        left: 0px;
+        top: 1500px;
+    }
+
+    #box7{
+        left: 0px;
+        top: 1800px;
+    }
+
+    #box8{
+        left: 0px;
+        top: 2100px;
+
+
+    }
+}

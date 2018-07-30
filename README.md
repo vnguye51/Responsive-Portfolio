@@ -1,2 +1,2 @@
-# Bootstrap-Portfolio
-My portfolio with Bootstrap
+# Basic-Portfolio
+Bootcamp First Project, and first web portfolio
